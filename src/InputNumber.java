@@ -15,13 +15,21 @@ public class InputNumber {
 class ReadNumber{
     public Map<Integer, String> Dictionary(){
         Map<Integer, String> data = new HashMap<>();
-        String[] words = {
+        String[] unidades = {
                 "cero", "uno", "dos", "tres", "cuatro",
-                "cinco", "seis", "siete", "ocho", "nueve",
-                "diez", "once", "doce", "trece", "catorce",
-                "quince",
+                "cinco", "seis", "siete", "ocho", "nueve"
         };
-        for 
+        String[] ecepciones = {
+                "once", "doce", "trece", "catorce", "quince"
+        };
+        String[] decenas = {
+                "diez", "veinte", "treinta", "cuarenta", "cincuenta",
+                "sesenta", "setenta", "ochenta", "noventa"
+        };
+        String[] centenas = {
+                "cien", "ciento", "cientos", "quinientos"
+        };
+
         return data;
     }
 
